@@ -1,0 +1,26 @@
+INSTRUCCIONES - Actividad: Persistencia con SQLite
+==================================================
+Este proyecto es el anterior (Menus y Fragments) mas la base de datos.
+Puedes copiar todo encima de tu proyecto, o solo lo que cambio.
+
+ARCHIVOS NUEVOS O MODIFICADOS
+  java/BaseDatos.java            NUEVO   - SQLiteOpenHelper con la tabla mascota
+  java/Mascota.java              CAMBIA  - se agrego el campo id (unico)
+  java/MascotaAdaptador.java     CAMBIA  - guarda en la BD al dar rating
+  java/MascotasFragment.java     CAMBIA  - ids unicos + lee rating guardado
+  java/MascotasFavoritas.java    CAMBIA  - lee las 5 ultimas desde la BD
+  res/layout/activity_favoritas.xml CAMBIA - mensaje cuando no hay datos
+  modelo_bd.sql / modelo_base_datos.png    - modelo para entregar
+El resto (JavaMail, ViewPager, menus, etc.) queda igual.
+
+PASOS
+1. Copia java/*.java a app/src/main/java/<tu paquete>/ y reemplaza los existentes.
+   Si tu paquete no es com.example.contactoapp, cambia la linea "package" de cada .java.
+2. Copia res/layout/activity_favoritas.xml a app/src/main/res/layout/ (reemplaza).
+3. No se necesitan dependencias nuevas: SQLite viene incluido en Android.
+4. Ejecuta (Shift+F10). Da rating (hueso blanco) a varias mascotas y abre la estrella.
+5. ConfigCorreo.java: deja "TU_CLAVE_DE_APLICACION" antes de subir a GitHub.
+
+PANTALLAZO DE LA BASE DE DATOS
+En Android Studio: View > Tool Windows > App Inspection > Database Inspector.
+Elige tu app en ejecucion, abre mascotas.db > mascota y toma la captura de la tabla.

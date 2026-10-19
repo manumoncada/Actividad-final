@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EDITA ESTOS TEXTOS CON TUS DATOS -->
+    <string name="bio_nombre">Tu Nombre Completo</string>
+    <string name="bio_rol">Desarrollador Android</string>
+    <string name="bio_texto">Soy estudiante del curso Desarrollo de aplicaciones con Android de la UNAM en Coursera. Me apasiona crear aplicaciones móviles y aprender nuevas tecnologías.\n\nEsta app muestra una lista de mascotas que se pueden calificar con huesos, un perfil con una galería de fotos y un formulario de contacto que envía correos con JavaMail.</string>
+</resources>
